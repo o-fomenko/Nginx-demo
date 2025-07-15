@@ -3,9 +3,11 @@ A simple redundant configuration using Nginx and keepalived only.
 
 ## Usage
 Prepare two nodes running Debian 12, install there nginx and keepalived packages
-`    sudo apt update
+```
+    sudo apt update
     sudo apt upgrade -y
-    sudo apt install -y nginx keepalived`
+    sudo apt install -y nginx keepalived
+```
 
 Put `nginx.conf` files to `/etc/nginx/` and `keepalived.conf` to `/etc/keepalived/` for both nodes representatively, `check_nginx.sh` to `/usr/local/bin/` on the main node;
 
