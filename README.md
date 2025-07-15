@@ -15,3 +15,4 @@ modify `interface` and `virtual_ipaddress` parameters in `/etc/keepalived/keepal
 
 sure `/usr/local/bin/check_nginx.sh` file is executable.
 
+Demo video is available here: https://youtu.be/koCtExxB-d0
